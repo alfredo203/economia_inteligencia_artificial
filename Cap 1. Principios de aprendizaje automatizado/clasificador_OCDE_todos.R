@@ -28,13 +28,18 @@ df2$OCDE_member[df2$Nombre_pais == "World"] <- 3
 
 par(mfrow=c(1,1))
 plot(df2$Tasa_mortalidad, 
+<<<<<<< HEAD
      df2$GNI_PC_PPP ,
+=======
+     df2$GNI_PC_PPP, 
+>>>>>>> 77fd301f1866bffbcf8ec70f1239b56bc55b4a43
      col = df2$OCDE_member,
      xlab = "Tasa de Mortalidad infantil por cada mil nacimientos (2015)",
      ylab = "Ingreso Nacional Bruto precios corrientes PPP (2015) ")
 abline(a, col = "blue", lwd = 3)
 
 ## Se pueden agregar otras líneas para mejorar el poder de clasificación del algoritmo
+
 
 # a$coefficients <- a$coefficients * -2
 # abline(a, col = "blue", lwd = 3 )
@@ -49,3 +54,10 @@ p<- data.frame(x, y)
 
 ## Se pintan los puntos al gráfico anterior
 points(p, col = "cyan", lwd = 10)
+
+a$coefficients <- a$coefficients * -2
+abline(a, col = "blue", lwd = 3 )
+
+a$coefficients <- abs(a$coefficients) + 100
+abline(a, col = "blue", lwd = 3 )
+
