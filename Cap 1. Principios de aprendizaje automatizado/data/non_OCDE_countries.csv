@@ -1,13 +1,13 @@
 Country Name,Country Code,"Mortality rate, under-5 (per 1,000 live births, 2015)","GNI per capita, PPP (current international $, 2015)",Developing Country
-Nigeria,NGA,108.8,5810,3
-Benin,BEN,99.5,2050,3
-"Congo, Dem. Rep.",ZAR,98.3,720,3
-Niger,NER,95.5,950,3
-Afghanistan,AFG,91.1,1940,3
-Burkina Faso,BFA,88.6,1660,3
-Cameroon,CMR,87.9,3070,3
-Pakistan,PAK,81.1,5320,3
-Togo,TGO,78.4,1330,3
+Nigeria,NGA,108.8,5810,1
+Benin,BEN,99.5,2050,1
+"Congo, Dem. Rep.",ZAR,98.3,720,1
+Niger,NER,95.5,950,1
+Afghanistan,AFG,91.1,1940,1
+Burkina Faso,BFA,88.6,1660,1
+Cameroon,CMR,87.9,3070,1
+Pakistan,PAK,81.1,5320,1
+Togo,TGO,78.4,1330,1
 Haiti,HTI,69,1760,1
 Ghana,GHA,61.6,4080,1
 Ethiopia,ETH,59.2,1620,1
