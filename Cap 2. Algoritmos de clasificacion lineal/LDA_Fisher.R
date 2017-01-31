@@ -10,8 +10,20 @@ head(df)
 ## se colorea según la especie a la que pertenece cada flor
 plot(df %>% select(-Species), col = df$Species)
 
-## S
+## Se grafican 2 dimensiones y se colocan líneas arbitrarias
+## como ejemplo de segmentación manual
 
 plot(df$Petal.Length, df$Sepal.Length, col = df$Species)
 abline(v = 2.5, h = 6, lty = 3)
 abline(v = 4.8, col ="blue")
+
+
+## Selección del 70% de la información
+
+porcentaje <- 70/100
+
+num_muestras <- porcentaje * nrow(df)
+set.seed(4)
+test_set<- df[sample(nrow(df), num_muestras), ]
+
+
