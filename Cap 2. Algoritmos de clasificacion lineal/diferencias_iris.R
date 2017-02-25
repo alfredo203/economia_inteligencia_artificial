@@ -1,4 +1,6 @@
 ## Diferencias Iris
+## Función para encontrar las diferencias de clasificación para
+## los datos de iris 
 
 diferencias_iris <- function(prediccion, test_set){
   f <- data.frame(prediccion$x, 
