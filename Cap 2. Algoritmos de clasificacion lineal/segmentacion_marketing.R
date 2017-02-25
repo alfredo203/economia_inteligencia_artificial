@@ -1,4 +1,5 @@
 ## Marketing retail clients segmentation
+## Fuente de información: https://archive.ics.uci.edu/ml/datasets/Online+Retail#
 
 library(dplyr)
 
@@ -38,21 +39,25 @@ porcentaje <- 70/100
 
 num_muestras <- porcentaje * nrow(muestra)
 
-  set.seed(4)
+set.seed(4)
 test_set<- muestra[sample(nrow(muestra), num_muestras), ]
 
 
 ## Ejecución del algoritmo de LDA
 
 library(MASS)
+par(mfrow=c(1,2)) ## Se especifica que se quieren dos gráficas en un mismo renglón
+
 
 modelo <- lda(data =test_set, Country ~.)
-prediccion <- predict(modelo)
-plot(modelo)
-plot(prediccion$x, col =prediccion$class)
-plot(prediccion$x, col =test_set$Country)
+prediccion <- predict(modelo, type = "Class")
+plot(prediccion$x, col =prediccion$class, main = "Predicción")
+plot(prediccion$x, col =test_set$Country, main = "Original")
 
+## Matriz de confusión
+matriz_confusion <-table(prediccion$class, test_set$Country)
 
+confusionMatrix(matriz_confusion)
 
 # Workshop 
 # 
