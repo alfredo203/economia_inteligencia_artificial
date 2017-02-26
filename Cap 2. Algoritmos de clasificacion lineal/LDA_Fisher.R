@@ -10,11 +10,8 @@ head(df)
 
 ## Se grafican las 5 dimensiones de la información
 ## se colorea según la especie a la que pertenece cada flor
-<<<<<<< HEAD
 plot(df , col = df$Species)
-=======
 plot(df %>% dplyr::select(-Species), col = df$Species)
->>>>>>> 5a5303e91b8d8973f3896557f3a8203a4db8873f
 
 ## Se grafican 2 dimensiones y se colocan líneas arbitrarias
 ## como ejemplo de segmentación manual
