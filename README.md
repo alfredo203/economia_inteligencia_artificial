@@ -1,2 +1,2 @@
 # Economía e Inteligencia Artificial
-Exploraciones en inteligencia artificial aplicado a sistemas económicos
+Exploraciones en inteligencia artificial aplicadas a sistemas económicos
