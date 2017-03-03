@@ -69,3 +69,4 @@ confusionMatrix(matriz_confusion)
 #   summarise(total_comprado = sum(UnitPrice))
 # 
 # f <-l %>% group_by(Country) %>% summarise(total = sum(total_comprado))
+ 
