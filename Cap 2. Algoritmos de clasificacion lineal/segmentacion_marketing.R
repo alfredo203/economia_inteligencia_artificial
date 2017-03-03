@@ -40,21 +40,33 @@ porcentaje <- 70/100
 num_muestras <- porcentaje * nrow(muestra)
 
 set.seed(4)
-test_set<- muestra[sample(nrow(muestra), num_muestras), ]
+train_ind <- sample(seq_len(nrow(muestra)), size = num_muestras)
+
+## Seleccionamos las muestras que pertenecen
+## al set de entrenamiento
+train_set <- muestra[train_ind, ]
+
+## Seleccionamos el resto de muestras
+## que pertenecen al set de pruebas
+test_set <- muestra[-train_ind, ]
 
 
 ## Ejecución del algoritmo de LDA
 
 library(MASS)
+library(caret)
 par(mfrow=c(1,2)) ## Se especifica que se quieren dos gráficas en un mismo renglón
 
 
-modelo <- lda(data =test_set, Country ~.)
+modelo <- lda(data =train_set, Country ~.)
 prediccion <- predict(modelo, type = "Class")
 plot(prediccion$x, col =prediccion$class, main = "Predicción")
-plot(prediccion$x, col =test_set$Country, main = "Original")
+plot(prediccion$x, col =train_set$Country, main = "Original")
 
-## Matriz de confusión
+## Matriz de confusión}
+
+prediccion <- predict(modelo, newdata = test_set)
+
 matriz_confusion <-table(prediccion$class, test_set$Country)
 
 confusionMatrix(matriz_confusion)
