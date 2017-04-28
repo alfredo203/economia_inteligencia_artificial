@@ -1,5 +1,6 @@
 # Economía e Inteligencia Artificial
-Exploraciones en inteligencia artificial aplicadas a sistemas económicos
+*Exploraciones en inteligencia artificial aplicadas a sistemas económicos*
+
 
 ![alt text](https://media.giphy.com/media/3oz8xydgKB8aH1fpok/giphy.gif)
 
