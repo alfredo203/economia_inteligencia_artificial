@@ -10,6 +10,8 @@ Una parte importante de las propuestas de economía e inteligencia artificial so
 
 En la actualidad, la mayoría de los libros sobre aprendizaje automatizado se enfocan en desarrollar conceptos en notación estadística y matemática. Este libro utiliza conceptos matemáticos básicos y un lenguaje de programación orientado al análisis económico. Así, como economista, los conceptos matemático-estadísticos resultan asequibles para analizar, y resolver problemas económicos.
 
+## Índice
+
 1.  Prefacio    
 2. Requerimientos y sugerencias    
   * Instalación del lenguaje    
