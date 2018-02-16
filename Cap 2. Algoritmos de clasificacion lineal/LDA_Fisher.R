@@ -62,7 +62,7 @@ prediccion <- predict(modelo)
 
 
 ## Gráfica de clasificación original
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(prediccion$x, 
      col =train_set$Species,
      main = "Original")
