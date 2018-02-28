@@ -33,7 +33,10 @@ En la actualidad, la mayoría de los libros sobre aprendizaje automatizado se en
   * Un método de medición del desempeño supervisado: Matriz de confusión    
   * Desempeño de la fase de pruebas    
   * Clasificación de clientes. Caso de retail marketing    
-  * Preprocesamiento de datos: escalamiento y normalización.    
+  * Preprocesamiento de datos: escalamiento y normalización    
   * Fase de entrenamiento    
 5. Capítulo 3. Algoritmos predictivos
+  * Contexto histórico
+  * Redes neuronales artificiales
+  * Predicción de precio de acciones con redes neuronales artificiales
 
