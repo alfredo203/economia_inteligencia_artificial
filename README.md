@@ -2,7 +2,7 @@
 *Exploraciones en inteligencia artificial aplicadas a sistemas económicos*
 
 
-![alt text](https://media.giphy.com/media/3oz8xydgKB8aH1fpok/giphy.gif)
+![alt text](https://s3.amazonaws.com/titlepages.leanpub.com/inteligencia_artificial/hero?1521569607)
 
 En general, se observa poco desarrollo interdisciplinario entre la ciencia económica y los planteamientos de inteligencia artificial. Usualmente, la visión dominante que conjunta ambas disciplinas se conoce como computational economics, una rama de la economía que surge a finales del siglo XX. No obstante, gran parte de los avances en computational economics no muestran una tendencia a ser textos introductorios o de acceso común. En cambio la mayoría de los investigadores se enfocan en publicar artículos state-of-the-art o  al menos muy específicos sobre el tema. Si bien, los textos de vanguardia son sumamente importantes para el desarrollo científico, limitan el acceso a entusiastas aún no especialistas en el tema. 
 
